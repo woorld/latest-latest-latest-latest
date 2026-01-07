@@ -8,5 +8,9 @@
       "matches": [ "https://x.com/*" ],
       "js": [ "content.js" ]
     }
-  ]
+  ],
+  "icons": {
+    "128": "icon/icon128.png",
+    "256": "icon/icon256.png"
+  }
 }
