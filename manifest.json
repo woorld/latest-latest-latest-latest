@@ -1,0 +1,12 @@
+{
+  "name": "Latest!Latest!Latest!Latest!",
+  "version": "1.0.0",
+  "description": "Ｘで「フォロー中」をクリックしたときの挙動を戻す拡張機能",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [ "https://x.com/*" ],
+      "js": [ "content.js" ]
+    }
+  ]
+}
