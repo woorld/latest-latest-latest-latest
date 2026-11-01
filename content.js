@@ -15,6 +15,7 @@ document.addEventListener('click', e => {
 
   const homeButton = document.querySelector('a[href="/home"][data-testid="AppTabBar_Home_Link"]');
   if (homeButton == null) {
+    console.warn('latest-latest-latest-latest: ホームボタンが取得できませんでした');
     return;
   }
 
